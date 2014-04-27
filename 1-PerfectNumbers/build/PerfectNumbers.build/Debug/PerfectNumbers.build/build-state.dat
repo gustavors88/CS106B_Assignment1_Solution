@@ -1,0 +1,122 @@
+TPerfectNumbers
+v7
+r0
+t420261039.233754
+cCheck dependencies
+cProcessInfoPlistFile ./PerfectNumbers.app/Contents/Info.plist Info.plist
+cCompileC build/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./PerfectNumbers.app/Contents/MacOS/PerfectNumbers normal i386
+cTouch ./PerfectNumbers.app
+
+N./PerfectNumbers.app
+t1398568239
+s102
+
+N./PerfectNumbers.app/Contents/Info.plist
+t1398567850
+s1139
+
+N./PerfectNumbers.app/Contents/MacOS/PerfectNumbers
+t1398568239
+s90932
+
+N./PerfectNumbers.app/Contents/PkgInfo
+t1398567850
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp
+c00000000535C753D00000000000002DD
+t1398568253
+s733
+i"genlib.h"
+i<iostream>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.LinkFileList
+c00000000535C73AA0000000000000098
+t1398567850
+s152
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.o
+t1398568239
+s67504
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+NInfo.plist
+c0000000049D591A60000000000000326
+t1238733222
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420261038#420261038#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420261038.774935
+e420261039.148598
+r1
+xCompileC
+xbuild/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp420261038#420261039#0(0"0(0#0#79"/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp4317954048#1082"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/PerfectNumbers.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.o0#
+
+CLd ./PerfectNumbers.app/Contents/MacOS/PerfectNumbers normal i386
+s420261039.148806
+e420261039.229706
+r1
+xLd
+x./PerfectNumbers.app/Contents/MacOS/PerfectNumbers
+xnormal
+xi386
+lSLF07#2@55"Link ./PerfectNumbers.app/Contents/MacOS/PerfectNumbers420261039#420261039#0(0"0(0#0#0"4317954048#594"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -Lcs106 -L/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/cs106 -F. -filelist /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/build/PerfectNumbers.build/Debug/PerfectNumbers.build/Objects-normal/i386/PerfectNumbers.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./PerfectNumbers.app/Contents/MacOS/PerfectNumbers0#
+
+CProcessInfoPlistFile ./PerfectNumbers.app/Contents/Info.plist Info.plist
+s420260650.582425
+e420260650.584698
+r1
+xProcessInfoPlistFile
+x./PerfectNumbers.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420260650#420260650#0(0"0(0#0#71"/Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers/Info.plist4317954048#240"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers    builtin-infoPlistUtility Info.plist -genpkginfo ./PerfectNumbers.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./PerfectNumbers.app/Contents/Info.plist0#
+
+CTouch ./PerfectNumbers.app
+s420261039.229784
+e420261039.233711
+r1
+xTouch
+x./PerfectNumbers.app
+lSLF07#2@26"Touch ./PerfectNumbers.app420261039#420261039#0(0"0(0#0#0"4317954048#111"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/1-PerfectNumbers    /usr/bin/touch -c ./PerfectNumbers.app0#
+

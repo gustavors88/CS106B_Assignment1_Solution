@@ -1,0 +1,113 @@
+TWarmup
+v7
+r0
+t420259338.001966
+cCheck dependencies
+cProcessInfoPlistFile ./Warmup.app/Contents/Info.plist Info.plist
+cCompileC build/Warmup.build/Debug/Warmup.build/Objects-normal/i386/Warmup.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./Warmup.app
+t2
+s0
+
+N./Warmup.app/Contents/Info.plist
+t1398566536
+s1115
+
+N./Warmup.app/Contents/MacOS/Warmup
+t2
+s0
+
+N./Warmup.app/Contents/PkgInfo
+t1398566536
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp
+c0000000049D7BD800000000000000540
+t1238875520
+s1344
+i"genlib.h"
+i<iostream>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/build/Warmup.build/Debug/Warmup.build/Objects-normal/i386/Warmup.LinkFileList
+c00000000535C6E880000000000000078
+t1398566536
+s120
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/build/Warmup.build/Debug/Warmup.build/Objects-normal/i386/Warmup.o
+t2
+s0
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+NInfo.plist
+c0000000049D585C60000000000000326
+t1238730182
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420259336#420259336#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/Warmup.build/Debug/Warmup.build/Objects-normal/i386/Warmup.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420259336.578537
+e420259338.001899
+r0
+xCompileC
+xbuild/Warmup.build/Debug/Warmup.build/Objects-normal/i386/Warmup.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp: In function 'int Main()':
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:45: error: 'GetLine' was not declared in this scope
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:46: error: invalid conversion from 'int' to 'const char*'
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:46: error:   initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:46: error: cannot convert 'std::string' to 'int' for argument '2' to 'int Hash(std::string, int)'
+lSLF07#2@71"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp420259336#420259338#0(770"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp: In function 'int Main()':/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:45: error: 'GetLine' was not declared in this scope/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:46: error: invalid conversion from 'int' to 'const char*'/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:46: error:   initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp:46: error: cannot convert 'std::string' to 'int' for argument '2' to 'int Hash(std::string, int)'4(4@40"'GetLine' was not declared in this scope420259338#91#116#0(6@63"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp260568320#45#0#45#0#34"'*' was not declared in this scope0(4@46"Invalid conversion from 'int' to 'const char*'420259338#207#122#0(6@63"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp260568320#46#0#46#0#34"invalid conversion from '*' to '*'0(4@201"Initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'420259338#329#279#0(6@63"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp260568320#46#0#46#0#0"0(4@86"Cannot convert 'std::string' to 'int' for argument '2' to 'int Hash(std::string, int)'420259338#608#162#0(6@63"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp260568320#46#0#46#0#0"0(0#0#63"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp4317954048#946"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/build/Warmup.build/Debug/Warmup.build/Warmup.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/build/Warmup.build/Debug/Warmup.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/build/Warmup.build/Debug/Warmup.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Warmup.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/build/Warmup.build/Debug/Warmup.build/Objects-normal/i386/Warmup.o1#
+
+CLd ./Warmup.app/Contents/MacOS/Warmup normal i386
+r0
+
+CProcessInfoPlistFile ./Warmup.app/Contents/Info.plist Info.plist
+s420259336.575404
+e420259336.578459
+r1
+xProcessInfoPlistFile
+x./Warmup.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420259336#420259336#0(0"0(0#0#63"/Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup/Info.plist4317954048#216"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/0-Warmup    builtin-infoPlistUtility Info.plist -genpkginfo ./Warmup.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./Warmup.app/Contents/Info.plist0#
+
+CTouch ./Warmup.app
+r0
+

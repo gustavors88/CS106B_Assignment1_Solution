@@ -1,0 +1,130 @@
+TCombinations
+v7
+r0
+t420306515.902521
+cCheck dependencies
+cProcessInfoPlistFile ./Combinations.app/Contents/Info.plist Info.plist
+cCompileC build/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./Combinations.app/Contents/MacOS/Combinations normal i386
+cTouch ./Combinations.app
+
+N./Combinations.app
+t1398613715
+s102
+
+N./Combinations.app/Contents/Info.plist
+t1398612546
+s1133
+
+N./Combinations.app/Contents/MacOS/Combinations
+t1398613715
+s96300
+
+N./Combinations.app/Contents/PkgInfo
+t1398612546
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp
+c00000000535D26F1000000000000037C
+t1398613745
+s892
+i"genlib.h"
+i"simpio.h"
+i<iostream>
+i<iomanip>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.LinkFileList
+c00000000535D22420000000000000090
+t1398612546
+s144
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.o
+t1398613666
+s68620
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/cs106/simpio.h
+c0000000049D58EC40000000000000673
+t1238732484
+s1651
+i"genlib.h"
+
+NInfo.plist
+c0000000049D59E1C0000000000000326
+t1238736412
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420306515#420306515#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420306515.824606
+e420306515.825573
+r1
+xCompileC
+xbuild/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp420306515#420306515#0(0"0(0#0#75"/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp4317954048#1048"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/Combinations.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Combinations.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.o0#
+
+CLd ./Combinations.app/Contents/MacOS/Combinations normal i386
+s420306515.825628
+e420306515.898342
+r1
+xLd
+x./Combinations.app/Contents/MacOS/Combinations
+xnormal
+xi386
+lSLF07#2@51"Link ./Combinations.app/Contents/MacOS/Combinations420306515#420306515#0(0"0(0#0#0"4317954048#578"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -Lcs106 -L/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/cs106 -F. -filelist /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/build/Combinations.build/Debug/Combinations.build/Objects-normal/i386/Combinations.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./Combinations.app/Contents/MacOS/Combinations0#
+
+CProcessInfoPlistFile ./Combinations.app/Contents/Info.plist Info.plist
+s420305346.568663
+e420305346.571721
+r1
+xProcessInfoPlistFile
+x./Combinations.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420305346#420305346#0(0"0(0#0#69"/Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations/Info.plist4317954048#234"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations    builtin-infoPlistUtility Info.plist -genpkginfo ./Combinations.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./Combinations.app/Contents/Info.plist0#
+
+CTouch ./Combinations.app
+s420306515.898418
+e420306515.902482
+r1
+xTouch
+x./Combinations.app
+lSLF07#2@24"Touch ./Combinations.app420306515#420306515#0(0"0(0#0#0"4317954048#107"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/4-Combinations    /usr/bin/touch -c ./Combinations.app0#
+

@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FFBB7BFD190CA77200363656 /* PerfectNumbers */;
+		activeTarget = 8D1107260486CEB800E47090 /* PerfectNumbers */;
+		codeSenseManager = FFBB7C0F190CA79300363656 /* Code sense */;
+		executables = (
+			FFBB7BFD190CA77200363656 /* PerfectNumbers */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 420259698;
+			PBXWorkspaceStateSaveDate = 420259698;
+		};
+		perUserProjectItems = {
+			FFBB7C1F190CAB9F00363656 /* PBXTextBookmark */ = FFBB7C1F190CAB9F00363656 /* PBXTextBookmark */;
+			FFBB7C20190CAB9F00363656 /* PBXTextBookmark */ = FFBB7C20190CAB9F00363656 /* PBXTextBookmark */;
+			FFBB7C3E190CACC100363656 /* PBXTextBookmark */ = FFBB7C3E190CACC100363656 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FFBB7C0E190CA79300363656 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* PerfectNumbers */ = {
+		activeExec = 0;
+		executables = (
+			FFBB7BFD190CA77200363656 /* PerfectNumbers */,
+		);
+	};
+	A82B1F2A0F85C94100475B51 /* PerfectNumbers.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {481, 494}}";
+			sepNavSelRange = "{310, 0}";
+			sepNavVisRange = "{95, 285}";
+			sepNavWindowFrame = "{{15, 64}, {1055, 710}}";
+		};
+	};
+	FFBB7BFD190CA77200363656 /* PerfectNumbers */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PerfectNumbers;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FFBB7C0E190CA79300363656 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FFBB7C0F190CA79300363656 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FFBB7C1F190CAB9F00363656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82B1F2A0F85C94100475B51 /* PerfectNumbers.cpp */;
+		name = "PerfectNumbers.cpp: 22";
+		rLen = 0;
+		rLoc = 528;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 290;
+	};
+	FFBB7C20190CAB9F00363656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFBB7C21190CAB9F00363656 /* genlib.h */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	FFBB7C21190CAB9F00363656 /* genlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = genlib.h;
+		path = "/Users/jinhe/Desktop/CS106B/Assignment1-mac/cs106/genlib.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {537, 676}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 809}";
+		};
+	};
+	FFBB7C3E190CACC100363656 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFBB7C3F190CACC100363656 /* genlib.h */;
+		name = "genlib.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	FFBB7C3F190CACC100363656 /* genlib.h */ = {
+		isa = PBXFileReference;
+		name = genlib.h;
+		path = "/Users/jinhe/Desktop/CS106B/Assignment1-mac/cs106/genlib.h";
+		sourceTree = "<absolute>";
+	};
+}

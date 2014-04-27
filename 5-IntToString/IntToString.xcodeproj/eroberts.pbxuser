@@ -1,0 +1,94 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A8143BC60F8A64AF004F1790 /* IntToString */;
+		activeTarget = 8D1107260486CEB800E47090 /* IntToString */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* IntToString */,
+		);
+		codeSenseManager = A8143BD50F8A64C2004F1790 /* Code sense */;
+		executables = (
+			A8143BC60F8A64AF004F1790 /* IntToString */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260727983;
+			PBXWorkspaceStateSaveDate = 260727983;
+		};
+		sourceControlManager = A8143BD40F8A64C2004F1790 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* IntToString */ = {
+		activeExec = 0;
+		executables = (
+			A8143BC60F8A64AF004F1790 /* IntToString */,
+		);
+	};
+	A8143BC60F8A64AF004F1790 /* IntToString */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = IntToString;
+		sourceDirectories = (
+		);
+	};
+	A8143BD20F8A64C2004F1790 /* IntToString.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {786.924, 1200}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRect = "{{0, 0}, {781, 464}}";
+			sepNavWindowFrame = "{{61, 106}, {820, 593}}";
+		};
+	};
+	A8143BD40F8A64C2004F1790 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	A8143BD50F8A64C2004F1790 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

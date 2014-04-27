@@ -1,0 +1,159 @@
+THistogram
+v7
+r0
+t420266167.096925
+cCheck dependencies
+cProcessInfoPlistFile ./Histogram.app/Contents/Info.plist Info.plist
+cCpResource ./Histogram.app/Contents/Resources/MidtermScores.txt MidtermScores.txt
+cCompileC build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./Histogram.app/Contents/MacOS/Histogram normal i386
+cTouch ./Histogram.app
+
+N./Histogram.app
+t1398573367
+s102
+
+N./Histogram.app/Contents/Info.plist
+t1398569478
+s1124
+
+N./Histogram.app/Contents/MacOS/Histogram
+t1398573367
+s101932
+
+N./Histogram.app/Contents/PkgInfo
+t1398569478
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/./Histogram.app/Contents/Resources/MidtermScores.txt
+t1398571777
+s36
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp
+c00000000535C894200000000000003C1
+t1398573378
+s961
+i"genlib.h"
+i<fstream>
+i<iostream>
+i"vector.h"
+i"strutils.h"
+i<iomanip>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/MidtermScores.txt
+c00000000535C82480000000000000024
+t1398571592
+s36
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.LinkFileList
+c00000000535C7A060000000000000084
+t1398569478
+s132
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o
+t1398573367
+s93512
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106/strutils.h
+c0000000049D58EC4000000000000087A
+t1238732484
+s2170
+i"genlib.h"
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106/vector.h
+c0000000049D58EC4000000000000398F
+t1238732484
+s14735
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+NInfo.plist
+c0000000049D5953C0000000000000326
+t1238734140
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420266166#420266166#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420266166.598782
+e420266167.027174
+r1
+xCompileC
+xbuild/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp420266166#420266167#0(0"0(0#0#69"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp4317954048#997"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Histogram.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o0#
+
+CCpResource ./Histogram.app/Contents/Resources/MidtermScores.txt MidtermScores.txt
+s420264577.047768
+e420264577.060393
+r1
+xCpResource
+x./Histogram.app/Contents/Resources/MidtermScores.txt
+xMidtermScores.txt
+lSLF07#2@22"Copy MidtermScores.txt420264577#420264577#0(0"0(0#0#73"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/MidtermScores.txt4317954048#390"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/MidtermScores.txt /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/./Histogram.app/Contents/Resources0#
+
+CLd ./Histogram.app/Contents/MacOS/Histogram normal i386
+s420266167.027251
+e420266167.091450
+r1
+xLd
+x./Histogram.app/Contents/MacOS/Histogram
+xnormal
+xi386
+lSLF07#2@45"Link ./Histogram.app/Contents/MacOS/Histogram420266167#420266167#0(0"0(0#0#0"4317954048#554"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -Lcs106 -L/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106 -F. -filelist /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./Histogram.app/Contents/MacOS/Histogram0#
+
+CProcessInfoPlistFile ./Histogram.app/Contents/Info.plist Info.plist
+s420262278.420661
+e420262278.422378
+r1
+xProcessInfoPlistFile
+x./Histogram.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420262278#420262278#0(0"0(0#0#66"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Info.plist4317954048#225"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    builtin-infoPlistUtility Info.plist -genpkginfo ./Histogram.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./Histogram.app/Contents/Info.plist0#
+
+CTouch ./Histogram.app
+s420266167.091527
+e420266167.096881
+r1
+xTouch
+x./Histogram.app
+lSLF07#2@21"Touch ./Histogram.app420266167#420266167#0(0"0(0#0#0"4317954048#101"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    /usr/bin/touch -c ./Histogram.app0#
+

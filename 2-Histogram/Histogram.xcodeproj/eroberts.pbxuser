@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A82CB43B0F85CCBD0028A46A /* Histogram */;
+		activeTarget = 8D1107260486CEB800E47090 /* Histogram */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Histogram */,
+		);
+		breakpoints = (
+			A82CB4710F85D1980028A46A /* Histogram.cpp:23 */,
+		);
+		codeSenseManager = A82CB4480F85CCDD0028A46A /* Code sense */;
+		executables = (
+			A82CB43B0F85CCBD0028A46A /* Histogram */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260426941;
+			PBXWorkspaceStateSaveDate = 260426941;
+		};
+		perUserProjectItems = {
+			A82CB45C0F85D12E0028A46A /* PBXTextBookmark */ = A82CB45C0F85D12E0028A46A /* PBXTextBookmark */;
+			A82CB4620F85D12E0028A46A /* PBXTextBookmark */ = A82CB4620F85D12E0028A46A /* PBXTextBookmark */;
+			A82CB4680F85D12E0028A46A /* PBXTextBookmark */ = A82CB4680F85D12E0028A46A /* PBXTextBookmark */;
+			A82CB4970F85D2CE0028A46A /* PBXTextBookmark */ = A82CB4970F85D2CE0028A46A /* PBXTextBookmark */;
+			A82CB4990F85D2CE0028A46A /* PBXTextBookmark */ = A82CB4990F85D2CE0028A46A /* PBXTextBookmark */;
+			A82CB49B0F85D2CE0028A46A /* PBXTextBookmark */ = A82CB49B0F85D2CE0028A46A /* PBXTextBookmark */;
+		};
+		sourceControlManager = A82CB4470F85CCDD0028A46A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* Histogram */ = {
+		activeExec = 0;
+		executables = (
+			A82CB43B0F85CCBD0028A46A /* Histogram */,
+		);
+	};
+	A82CB43B0F85CCBD0028A46A /* Histogram */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Histogram;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	A82CB4470F85CCDD0028A46A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	A82CB4480F85CCDD0028A46A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A82CB4490F85CCEA0028A46A /* Histogram.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 1273}}";
+			sepNavSelRange = "{1183, 0}";
+			sepNavVisRect = "{{0, 809}, {781, 464}}";
+			sepNavWindowFrame = "{{15, 148}, {820, 593}}";
+		};
+	};
+	A82CB45C0F85D12E0028A46A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82CB45D0F85D12E0028A46A /* revfile.cpp */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	A82CB45D0F85D12E0028A46A /* revfile.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = revfile.cpp;
+		path = "/Users/eroberts/Books/Programming Abstractions C++/Chapter/04-UsingADTs/[sources]/[programs]/ReverseFile/revfile.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 1387}}";
+			sepNavSelRange = "{665, 498}";
+			sepNavVisRect = "{{0, 74}, {781, 464}}";
+			sepNavWindowFrame = "{{84, 85}, {820, 593}}";
+		};
+	};
+	A82CB4620F85D12E0028A46A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82CB4630F85D12E0028A46A /* histogram.cpp */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	A82CB4630F85D12E0028A46A /* histogram.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = histogram.cpp;
+		path = "/Users/eroberts/Courses/2008-09/CS106B (Spring)/[archive]/[Julie]/Code/1 Simple soln/histogram.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 760}}";
+			sepNavSelRange = "{203, 557}";
+			sepNavVisRect = "{{0, 296}, {781, 464}}";
+			sepNavWindowFrame = "{{61, 106}, {820, 593}}";
+		};
+	};
+	A82CB4680F85D12E0028A46A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82CB4690F85D12E0028A46A /* PerfectNumbers.cpp */;
+		rLen = 0;
+		rLoc = "-2147483526";
+		rType = 0;
+	};
+	A82CB4690F85D12E0028A46A /* PerfectNumbers.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = PerfectNumbers.cpp;
+		path = "/Users/eroberts/Courses/2008-09/CS106B (Spring)/Solutions/01-Simple-C++/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 1235}}";
+			sepNavSelRange = "{0, 1531}";
+			sepNavVisRect = "{{0, 0}, {781, 464}}";
+			sepNavWindowFrame = "{{38, 127}, {820, 593}}";
+		};
+	};
+	A82CB4710F85D1980028A46A /* Histogram.cpp:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A82CB4490F85CCEA0028A46A /* Histogram.cpp */;
+		functionName = "main()";
+		hitCount = 1;
+		lineNumber = 23;
+		location = Histogram.ob;
+		modificationTime = 260428335.626599;
+		state = 1;
+	};
+	A82CB4970F85D2CE0028A46A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82CB4980F85D2CE0028A46A /* revfile.cpp */;
+		name = "(null): 32";
+		rLen = 498;
+		rLoc = 665;
+		rType = 0;
+		vrLen = 607;
+		vrLoc = 45;
+	};
+	A82CB4980F85D2CE0028A46A /* revfile.cpp */ = {
+		isa = PBXFileReference;
+		name = revfile.cpp;
+		path = "/Users/eroberts/Books/Programming Abstractions C++/Chapter/04-UsingADTs/[sources]/[programs]/ReverseFile/revfile.cpp";
+		sourceTree = "<absolute>";
+	};
+	A82CB4990F85D2CE0028A46A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82CB49A0F85D2CE0028A46A /* histogram.cpp */;
+		name = "(null): 15";
+		rLen = 557;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 238;
+	};
+	A82CB49A0F85D2CE0028A46A /* histogram.cpp */ = {
+		isa = PBXFileReference;
+		name = histogram.cpp;
+		path = "/Users/eroberts/Courses/2008-09/CS106B (Spring)/[archive]/[Julie]/Code/1 Simple soln/histogram.cpp";
+		sourceTree = "<absolute>";
+	};
+	A82CB49B0F85D2CE0028A46A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82CB49C0F85D2CE0028A46A /* PerfectNumbers.cpp */;
+		name = "(null): 1";
+		rLen = 1531;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 583;
+		vrLoc = 0;
+	};
+	A82CB49C0F85D2CE0028A46A /* PerfectNumbers.cpp */ = {
+		isa = PBXFileReference;
+		name = PerfectNumbers.cpp;
+		path = "/Users/eroberts/Courses/2008-09/CS106B (Spring)/Solutions/01-Simple-C++/Assignment1-mac/1-PerfectNumbers/PerfectNumbers.cpp";
+		sourceTree = "<absolute>";
+	};
+}

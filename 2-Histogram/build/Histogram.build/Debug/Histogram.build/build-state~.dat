@@ -1,0 +1,129 @@
+THistogram
+v7
+r0
+t420262278.887574
+cCheck dependencies
+cProcessInfoPlistFile ./Histogram.app/Contents/Info.plist Info.plist
+cCpResource ./Histogram.app/Contents/Resources/MidtermScores.txt MidtermScores.txt
+cCompileC build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./Histogram.app
+t2
+s0
+
+N./Histogram.app/Contents/Info.plist
+t1398569478
+s1124
+
+N./Histogram.app/Contents/MacOS/Histogram
+t2
+s0
+
+N./Histogram.app/Contents/PkgInfo
+t1398569478
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/./Histogram.app/Contents/Resources/MidtermScores.txt
+t1398569478
+s37
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp
+c00000000535C7A04000000000000023B
+t1398569476
+s571
+i"genlib.h"
+i<fstream>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/MidtermScores.txt
+c0000000049D5B8620000000000000025
+t1238743138
+s37
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.LinkFileList
+c00000000535C7A060000000000000084
+t1398569478
+s132
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o
+t2
+s0
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+NInfo.plist
+c0000000049D5953C0000000000000326
+t1238734140
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420262278#420262278#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420262278.504912
+e420262278.887510
+r0
+xCompileC
+xbuild/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp: In function 'int Main()':
+o/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp:27: error: 'cout' was not declared in this scope
+lSLF07#2@77"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp420262278#420262278#0(216"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp: In function 'int Main()':/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp:27: error: 'cout' was not declared in this scope1(4@37"'cout' was not declared in this scope420262278#97#119#0(6@69"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp420262276#27#0#27#0#34"'*' was not declared in this scope0(0#0#69"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp4317954048#997"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Histogram.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Histogram.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/build/Histogram.build/Debug/Histogram.build/Objects-normal/i386/Histogram.o1#
+
+CCpResource ./Histogram.app/Contents/Resources/MidtermScores.txt MidtermScores.txt
+s420262278.422445
+e420262278.504823
+r1
+xCpResource
+x./Histogram.app/Contents/Resources/MidtermScores.txt
+xMidtermScores.txt
+lSLF07#2@22"Copy MidtermScores.txt420262278#420262278#0(0"0(0#0#73"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/MidtermScores.txt4317954048#390"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/MidtermScores.txt /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/./Histogram.app/Contents/Resources0#
+
+CLd ./Histogram.app/Contents/MacOS/Histogram normal i386
+r0
+
+CProcessInfoPlistFile ./Histogram.app/Contents/Info.plist Info.plist
+s420262278.420661
+e420262278.422378
+r1
+xProcessInfoPlistFile
+x./Histogram.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420262278#420262278#0(0"0(0#0#66"/Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram/Info.plist4317954048#225"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/2-Histogram    builtin-infoPlistUtility Info.plist -genpkginfo ./Histogram.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./Histogram.app/Contents/Info.plist0#
+
+CTouch ./Histogram.app
+r0
+

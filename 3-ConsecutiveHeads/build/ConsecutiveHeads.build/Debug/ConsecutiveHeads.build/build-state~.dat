@@ -1,0 +1,129 @@
+TConsecutiveHeads
+v7
+r0
+t420304096.973663
+cCheck dependencies
+cProcessInfoPlistFile ./ConsecutiveHeads.app/Contents/Info.plist Info.plist
+cCompileC build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/Objects-normal/i386/ConsecutiveHeads.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./ConsecutiveHeads.app
+t2
+s0
+
+N./ConsecutiveHeads.app/Contents/Info.plist
+t1398611296
+s1145
+
+N./ConsecutiveHeads.app/Contents/MacOS/ConsecutiveHeads
+t2
+s0
+
+N./ConsecutiveHeads.app/Contents/PkgInfo
+t1398611296
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp
+c00000000535D1D5E0000000000000379
+t1398611294
+s889
+i"genlib.h"
+i"random.h"
+i<iostream>
+i"vector.h"
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/Objects-normal/i386/ConsecutiveHeads.LinkFileList
+c00000000535D1D6000000000000000A0
+t1398611296
+s160
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/Objects-normal/i386/ConsecutiveHeads.o
+t2
+s0
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/cs106/random.h
+c0000000049D58EC400000000000007D6
+t1238732484
+s2006
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/cs106/strutils.h
+c0000000049D58EC4000000000000087A
+t1238732484
+s2170
+i"genlib.h"
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/cs106/vector.h
+c0000000049D58EC4000000000000398F
+t1238732484
+s14735
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+NInfo.plist
+c0000000049D59B620000000000000326
+t1238735714
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420304096#420304096#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/Objects-normal/i386/ConsecutiveHeads.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420304096.972601
+e420304096.973621
+r0
+xCompileC
+xbuild/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/Objects-normal/i386/ConsecutiveHeads.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp420304096#420304096#0(257"/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp: In function 'int Main()':/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp:24: error: 'Consecutive3Heads' was not declared in this scope1(4@50"'Consecutive3Heads' was not declared in this scope420304096#111#146#0(6@83"/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp420304094#24#0#24#0#34"'*' was not declared in this scope0(0#0#83"/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp4317954048#1116"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/ConsecutiveHeads.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/ConsecutiveHeads.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/build/ConsecutiveHeads.build/Debug/ConsecutiveHeads.build/Objects-normal/i386/ConsecutiveHeads.o1#
+
+CLd ./ConsecutiveHeads.app/Contents/MacOS/ConsecutiveHeads normal i386
+r0
+
+CProcessInfoPlistFile ./ConsecutiveHeads.app/Contents/Info.plist Info.plist
+s420304096.967175
+e420304096.972421
+r1
+xProcessInfoPlistFile
+x./ConsecutiveHeads.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420304096#420304096#0(0"0(0#0#73"/Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads/Info.plist4317954048#246"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/3-ConsecutiveHeads    builtin-infoPlistUtility Info.plist -genpkginfo ./ConsecutiveHeads.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./ConsecutiveHeads.app/Contents/Info.plist0#
+
+CTouch ./ConsecutiveHeads.app
+r0
+

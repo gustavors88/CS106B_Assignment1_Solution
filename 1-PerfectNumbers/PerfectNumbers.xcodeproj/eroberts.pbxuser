@@ -1,0 +1,153 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A82B1F250F85C92700475B51 /* PerfectNumbers */;
+		activeTarget = 8D1107260486CEB800E47090 /* PerfectNumbers */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* PerfectNumbers */,
+		);
+		codeSenseManager = A82B1F2D0F85C94200475B51 /* Code sense */;
+		executables = (
+			A82B1F250F85C92700475B51 /* PerfectNumbers */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260426023;
+			PBXWorkspaceStateSaveDate = 260426023;
+		};
+		perUserProjectItems = {
+			A82B1F3C0F85CB4300475B51 /* PBXTextBookmark */ = A82B1F3C0F85CB4300475B51 /* PBXTextBookmark */;
+			A82B1F400F85CB4300475B51 /* PBXTextBookmark */ = A82B1F400F85CB4300475B51 /* PBXTextBookmark */;
+			A82B1F4B0F85CB7700475B51 /* PBXTextBookmark */ = A82B1F4B0F85CB7700475B51 /* PBXTextBookmark */;
+			A82B1F4C0F85CB7700475B51 /* PBXTextBookmark */ = A82B1F4C0F85CB7700475B51 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A82B1F2C0F85C94200475B51 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* PerfectNumbers */ = {
+		activeExec = 0;
+		executables = (
+			A82B1F250F85C92700475B51 /* PerfectNumbers */,
+		);
+	};
+	A82B1F250F85C92700475B51 /* PerfectNumbers */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PerfectNumbers;
+		sourceDirectories = (
+		);
+	};
+	A82B1F2A0F85C94100475B51 /* PerfectNumbers.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 1216}}";
+			sepNavSelRange = "{372, 0}";
+			sepNavVisRect = "{{0, 279}, {781, 464}}";
+			sepNavWindowFrame = "{{84, 85}, {820, 593}}";
+		};
+	};
+	A82B1F2C0F85C94200475B51 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	A82B1F2D0F85C94200475B51 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A82B1F3C0F85CB4300475B51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82B1F2A0F85C94100475B51 /* PerfectNumbers.cpp */;
+		rLen = 0;
+		rLoc = "-2147482363";
+		rType = 0;
+	};
+	A82B1F400F85CB4300475B51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82B1F410F85CB4300475B51 /* perfect.c */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	A82B1F410F85CB4300475B51 /* perfect.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = perfect.c;
+		path = "/Users/eroberts/Courses/2001-02/CS106A (Winter)/Lectures/07. Functions/perfect.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {781, 1273}}";
+			sepNavSelRange = "{133, 1306}";
+			sepNavVisRect = "{{0, 809}, {781, 464}}";
+			sepNavWindowFrame = "{{107, 64}, {820, 593}}";
+		};
+	};
+	A82B1F4B0F85CB7700475B51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82B1F2A0F85C94100475B51 /* PerfectNumbers.cpp */;
+		name = "PerfectNumbers.cpp: 22";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 209;
+	};
+	A82B1F4C0F85CB7700475B51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A82B1F4D0F85CB7700475B51 /* perfect.c */;
+		name = "(null): 8";
+		rLen = 1306;
+		rLoc = 133;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 910;
+	};
+	A82B1F4D0F85CB7700475B51 /* perfect.c */ = {
+		isa = PBXFileReference;
+		name = perfect.c;
+		path = "/Users/eroberts/Courses/2001-02/CS106A (Winter)/Lectures/07. Functions/perfect.c";
+		sourceTree = "<absolute>";
+	};
+}

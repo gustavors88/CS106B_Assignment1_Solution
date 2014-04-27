@@ -1,0 +1,149 @@
+TIntToString
+v7
+r0
+t420319340.188617
+cCheck dependencies
+cProcessInfoPlistFile ./IntToString.app/Contents/Info.plist Info.plist
+cCompileC build/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./IntToString.app/Contents/MacOS/IntToString normal i386
+cTouch ./IntToString.app
+
+N./IntToString.app
+t1398626540
+s102
+
+N./IntToString.app/Contents/Info.plist
+t1398614663
+s1130
+
+N./IntToString.app/Contents/MacOS/IntToString
+t1398626540
+s96320
+
+N./IntToString.app/Contents/PkgInfo
+t1398614663
+s8
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005266F05C0000000000006B20
+t1382477916
+s27424
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005266F05C00000000000066C0
+t1382477916
+s26304
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000530299EF0000000000322D20
+t1392679407
+s3288352
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp
+c00000000535D58F800000000000002C3
+t1398626552
+s707
+i"genlib.h"
+i"simpio.h"
+i<iostream>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.LinkFileList
+c00000000535D2A87000000000000008C
+t1398614663
+s140
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.o
+t1398626539
+s69308
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106/genlib.h
+c0000000049D58EC400000000000005B5
+t1238732484
+s1461
+i<string>
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106/libcs106.a
+c0000000049D591120000000000064DE8
+t1238733074
+s413160
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106/simpio.h
+c0000000049D58EC40000000000000673
+t1238732484
+s1651
+i"genlib.h"
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106/stack.h
+c0000000049D58EC400000000000014F2
+t1238732484
+s5362
+i"vector.h"
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106/strutils.h
+c0000000049D58EC4000000000000087A
+t1238732484
+s2170
+i"genlib.h"
+
+N/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106/vector.h
+c0000000049D58EC4000000000000398F
+t1238732484
+s14735
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+NInfo.plist
+c0000000049DA2D2F0000000000000326
+t1239035183
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies420319338#420319338#0(0"0(0#1#0"4317954048#0"0#
+
+CCompileC build/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.o /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s420319338.922144
+e420319339.856189
+r1
+xCompileC
+xbuild/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.o
+x/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp420319338#420319339#0(0"0(0#0#73"/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp4317954048#1031"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/IntToString.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/DerivedSources/i386 -I/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/DerivedSources -fstack-check -c /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/IntToString.cpp -o /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.o0#
+
+CLd ./IntToString.app/Contents/MacOS/IntToString normal i386
+s420319339.856261
+e420319340.143424
+r1
+xLd
+x./IntToString.app/Contents/MacOS/IntToString
+xnormal
+xi386
+lSLF07#2@49"Link ./IntToString.app/Contents/MacOS/IntToString420319339#420319340#0(0"0(0#0#0"4317954048#570"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L. -Lcs106 -L/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/cs106 -F. -filelist /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/build/IntToString.build/Debug/IntToString.build/Objects-normal/i386/IntToString.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./IntToString.app/Contents/MacOS/IntToString0#
+
+CProcessInfoPlistFile ./IntToString.app/Contents/Info.plist Info.plist
+s420307463.109273
+e420307463.126502
+r1
+xProcessInfoPlistFile
+x./IntToString.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist420307463#420307463#0(0"0(0#0#68"/Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString/Info.plist4317954048#231"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString    builtin-infoPlistUtility Info.plist -genpkginfo ./IntToString.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./IntToString.app/Contents/Info.plist0#
+
+CTouch ./IntToString.app
+s420319340.143499
+e420319340.188575
+r1
+xTouch
+x./IntToString.app
+lSLF07#2@23"Touch ./IntToString.app420319340#420319340#0(0"0(0#0#0"4317954048#105"    cd /Users/jinhe/Desktop/CS106B/Assignment1-mac/5-IntToString    /usr/bin/touch -c ./IntToString.app0#
+
