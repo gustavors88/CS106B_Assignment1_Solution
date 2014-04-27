@@ -17,13 +17,18 @@ string IntToString(int number);
 
 int main() {
 	// [TODO: fill in the code]
+	bool negative = false;
 	cout << "number? ";
 	int number = GetInteger();
+	if(number<0) {
+		negative = true;
+		number = -number;
+	}
 	string convertedInt = IntToString(number);
+	if(negative) convertedInt = string("-")+convertedInt;
 	cout << convertedInt;
 	return 0;
 }
-
 
 string IntToString(int number) {
 	if (number>=0&&number<=10) {
